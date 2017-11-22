@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 @import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+h1{
+    padding-bottom: 20px;
+    padding-right: 150px;
+}
+h2{
+    font-family: 'Kalam', cursive;
+}
+h3{
+    font-family: 'Unica One', cursive;
+}
 #banner{
     width: 901px;
     text-align: center;
@@ -44,17 +56,14 @@
     color:red;
     font-size: 20px;
     text-transform: uppercase;
-
+    padding-left: 150px;
     padding-top: 20px;
 }
 
 
 
 body{
-background-color/image: (your choice); 
-margin:0;
-font-family: 'Orbitron', sans-serif;
-font-size:15px;
+background-image: url("https://i.ytimg.com/vi/yqXZrKOuG58/maxresdefault.jpg");
 
 }
 .grow{
