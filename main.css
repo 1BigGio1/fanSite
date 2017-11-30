@@ -14,6 +14,15 @@ h3{
     font-family: 'Unica One', cursive;
     color: 
 }
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
 #banner{
     width: 901px;
     text-align: center;
@@ -70,7 +79,7 @@ h3{
 
 
 body{
-background-image: url("http://wallportal.com/uploads/posts/gta-v-hd-wallpapers/gta_v_hd_wallpapers_001.jpg");
+background-image: url("https://i.stack.imgur.com/lmY0N.jpg");
 background-size:1950px;
 background-repeat: no-repeat;
 }
