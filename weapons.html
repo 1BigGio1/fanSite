@@ -1,37 +1,230 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Weapons</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Characters</title>
         <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
-    <body>
-        
-      <a href="index.html">
-     <div id="banner"><img src="images/banner.jpg">
-        <h1>Fan Site☞</h1>
-     </div></a>
-
-          
-
-
-
-
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
 
 
+</style>
+<body>
 
-	<div id="nav">
-		<a href="about.html"> ABOUT</a>
-        <a href="characters.html">CHARACTERS</a>
-        <a href="weapons.html">WEAPONS</a>
-        <a href="references.html">REFERENCES</a>
-	</div>
-	<div id="main"></div>
-	<div id="footer">© 2017 Jovanni Pelaez</div>
-    <div id=”header” class=”grow”>
-    <div id=”header” class=”rotate”>
-    <div id=”header” class=”transform”>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> CHARACTERS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> WEAPONS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> REFERENCES</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
 
-    </body>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">CHARACTERS</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">WEAPONS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">REFERENCES</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">GRAND <span class="w3-hide-small">THEFT</span> AUTO V</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">CHARACTERS</h3>
+  <div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Main Characters In The Game</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/micheal.jpg" alt="Micheal De Santa" style="width:100%">
+        <div class="w3-container">
+          <h3>Micheal De Santa</h3>
+          <p class="w3-opacity">Boss</p>
+          <p>Michael's ability is called Bullet Time. When active Michael enters a bullet time like effect allowing him to slow down time and gain the advantage in shootouts. This ability lasts about 30 seconds. To enhance this ability you have to do: Headshots: 7.5% bonus, Stealth kill or knock out: 10% bonus, Health drop below 25%: 20% bonus and Maintainig high speeds in vehicles: small bonus.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Rockstar</button></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/Trevor.jpg" alt="Trevor Phillips" style="width:100%">
+        <div class="w3-container">
+          <h3>Trevor Phillips</h3>
+          <p class="w3-opacity">Gunner</p>
+          <p>Trevor's special ability is Red Mist, which allows him to take less damage and inflict more damge on others, practically making him invincible. increasing his ablility you have to make him angry. To enhance his ablility you have to: Failing a mission: small bonus, Fall over: small bonus, Take damage: small bonus, Rammed by veichle: small bonus, Bumping into pedestrian: small bonus, Headshots: 7.5% bonus, Kill at least one pedestrian: small bonus and Maintaining high speeds in vehicles: small bonus. </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Rockstar</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/Franklin.jpg" alt="Franklin" style="width:100%">
+        <div class="w3-container">
+          <h3>Franklin Clinton</h3>
+          <p class="w3-opacity">Driver</p>
+          <p>Franklin has a special ability called Driving Focus which allows him to slow down time while driving any land vehicle. This allows him to easily take corners at full speed and make precise maneuvers quickly. He can also enhance this ablility by: Drifting around corners adds a continuous bonus, Near vehicle misses at high speed: small bonus, Driving on the wrong side of the street in traffic adds a continuous bonus and Driving at or above 90% of vehicle's top speed: continuous bonus.
+           </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Rockstar</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Welcome to my website. I am going to be talking about Grand Theft Auto V.</p>
+    </div>
+  </div>
+  
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">WEAPONS</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Weapons</h3>
+  <p class="w3-center"><em>Here are some of the Weapons in the game.<br> </em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="images/microsmg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Micro SMG">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/carbinerifle.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Carbine Rifle">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/appistol.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="AP Pistol">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/heavysniper.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Heavy Sniper">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="images/mg.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="MG">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/stickybombs.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sticky Bombs">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/pumpshotgun.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pump Shotgun">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="images/minigun.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Minigun">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">REFERENCES</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">REFERENCES</h3>
+  <p class="w3-center w3-large">Where I got all my Information:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p> <a href="http://www.ucgl.net/uploads/f411b2bf0273d80d2de22035d69ebd3a.jpg" Banner></a> 
+          <a href="http://www.codecmoments.com/wp-content/uploads/2013/10/Trevor-Phillips.jpg" Trevor> </a>
+          <a href="https://ssli.ulximg.com/image/740x493/gallery/1381095861_86164d9233b405c65661541e9815b7d2.jpg/41d36cc3ecdd21d9d467b97adda1d822/1381095861_7f194c27f50b3c1c7e8bb74d752e63bd.jpg" Franklin></a> 
+          <a href=" http://i.imgur.com/v51o4Yx.jpg" Michael></a>
+          <a href="http://wallportal.com/uploads/posts/gta-v-hd-wallpapers/gta_v_hd_wallpapers_001.jpg" Background></a> 
+          <a href="http://gta.wikia.com/wiki/Category:Weapons_in_GTA_V" Weapons Found></a>
+          <a href="https://vignette.wikia.nocookie.net/gtawiki/images/5/5c/Minigun-GTAV.png/revision/latest?cb=20150405135320" Minigun></a>
+          <a href="https://vignette.wikia.nocookie.net/gtawiki/images/e/e1/CarbineRifle-GTAV.png/revision/latest?cb=20140207191610" Carbine Rifle></a>
+          <a href="https://vignette.wikia.nocookie.net/gtawiki/images/3/34/APPistol-GTAV.png/revision/latest?cb=20170305123701" AP Pistol></a>
+           <a href="https://vignette.wikia.nocookie.net/gtawiki/images/6/6f/PumpShotgun-GTAV.png/revision/latest?cb=20140207082114" Pump Shotgun></a>
+          <a href="https://vignette.wikia.nocookie.net/gtawiki/images/7/71/HeavySniper-GTAV.png/revision/latest?cb=20140204145809" Heavy Sniper></a>
+           <a href="https://vignette.wikia.nocookie.net/gtawiki/images/7/7c/MG-GTAV.png/revision/latest?cb=20140207191642" MG></a>
+           <a href="https://vignette.wikia.nocookie.net/gtawiki/images/0/09/StickyBomb-GTAV.png/revision/latest?cb=20130929074646" Sticky Bombs></a>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+
+<!-- Footer -->
+<footer>
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+  </div>
+  <p>© 2017 Jovanni Pelaez</p>
+</footer>
+ 
+<script>
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
 </html>
